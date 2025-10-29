@@ -1,5 +1,5 @@
 {
-  "name": "ocean/hello",
+  "name": "ocean-ding/helloword",
   "description": "跨框架通用的问候语扩展包",
   "type": "library",
   "license": "MIT",
