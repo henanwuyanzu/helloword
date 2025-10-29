@@ -1,31 +1,32 @@
 {
-  "name": "ocean-ding/helloword",
-  "authors": [
-    {
-      "name": "ocean",
-      "email": "huashuixiaolaohu@gmail.com",
-      "role" : "管理者"
+    "name": "ocean/helloword",
+    "authors": [
+        {
+            "name": "zhange",
+            "email": "kenphp@yeah.net",
+            "homepage": "https://www.iszhange.com",
+            "role": "管理者"
+        }
+    ],
+    "description": "这是一个Composer依赖包开发示例",
+    "keywords": [
+        "张哥",
+        "helloword"
+    ],
+    "type": "library",
+    "license": ["MIT"],
+    "support": {
+        "email": "kenphp@yeah.net"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhange\\HelloWord\\": "src/"
+        }
     }
-  ],
-  "description": "跨框架通用的问候语扩展包",
-  "keywords" : [
-    "ocean",
-    "helloword"
-  ],
-  "type": "library",
-  "license": ["MIT"],
-  "support": {
-    "email": "huashuixiaolaohu@gmail.com"
-  },
-  "require": {
-    "php": ">=7.4"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^9.5"
-  },
-  "autoload": {
-    "psr-4": {
-      "Hello\\": "src/"
-    }
-  }
 }
