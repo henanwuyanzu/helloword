@@ -10,7 +10,7 @@
     ],
     "description": "这是一个Composer依赖包开发示例",
     "keywords": [
-        "张哥",
+        "ocean",
         "helloword"
     ],
     "type": "library",
@@ -28,5 +28,7 @@
         "psr-4": {
             "Zhange\\HelloWord\\": "src/"
         }
+    },
+    "repositories": {
     }
 }
